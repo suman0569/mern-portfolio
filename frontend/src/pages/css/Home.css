@@ -1,0 +1,41 @@
+/* Home.css */
+.home-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image-container {
+    display: flex;
+    justify-content: center;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .text-gradient {
+    background: -webkit-linear-gradient(#3498db, #2c3e50);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .home-section {
+      text-align: center;
+      padding-top: 80px !important;
+    }
+    
+    .d-flex {
+      justify-content: center;
+    }
+    
+    .profile-image-container {
+      margin-bottom: 30px;
+    }
+  }

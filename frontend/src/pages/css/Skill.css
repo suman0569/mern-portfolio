@@ -1,0 +1,88 @@
+
+
+  .my-skills-heading {
+    background-color: #4a90e2;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .text-box {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+   
+ 
+    text-align: justify;
+   
+  }
+
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .skills-text {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .text-box {
+    padding: 30px;
+    text-align: justify;
+    border-radius: 10px;
+  }
+  
+  .skill-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    flex: 0.5;
+    padding-top: 10px;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: calc(20% - 20px); /* 5 per row on desktop */
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .skills-container {
+      flex-direction: column !important;
+    }
+  
+    .skills-text {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .text-box {
+      text-align: center;
+    }
+  
+    .skill-icons {
+      justify-content: center !important;
+    }
+  
+    .skill-item {
+      width: 30% !important; /* 3 per row on tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .skill-item {
+      width: 45% !important; /* 2 per row on phones */
+    }
+  }
+  

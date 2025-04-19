@@ -1,0 +1,39 @@
+.about-section {
+    background: linear-gradient(to right,  #f5f7fa 0%, #c3cfe2 100%);
+    
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #343a40;
+  }
+  
+  .about-text-box {
+    flex: 1;
+    min-width: 400px;
+   
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #495057;
+  }
+  
+  .about-text-box p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-video-box {
+    flex-shrink: 0;
+  }
+  
+  .about-video {
+    width: 60%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
