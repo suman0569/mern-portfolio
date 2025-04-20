@@ -15,7 +15,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/contact', formData);
+      const response = await axios.post('https://sumanchy.onrender.com/api/contact', formData);
       setAlert({
         show: true,
         variant: 'success',
