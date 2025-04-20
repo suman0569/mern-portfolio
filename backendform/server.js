@@ -5,7 +5,7 @@ const cors = require('cors');
 const contactRoutes = require('./routes/contactRoutes');
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const MONGODB_URI = 'mongodb+srv://chysuman709:Xp3omR71CGqORipy@test-pro-db.wu9lb.mongodb.net/test-pro-db?retryWrites=true&w=majority&appName=test-pro-db';
 
