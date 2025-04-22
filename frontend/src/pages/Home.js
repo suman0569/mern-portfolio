@@ -28,7 +28,7 @@ const Home = () => {
         <Row className="align-items-center">
           <Col md={6} className="order-md-1 order-2">
             <div className='mb-3 d-flex'>
-              <h1 className='mb-0'>Hi, I am a </h1>
+              <h1 className='mb-0'>Hi, I am </h1>
               <h1>
                 <span className="text-primary">{roles[currentRoleIndex]}</span>
               </h1>
